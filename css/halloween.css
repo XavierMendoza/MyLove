@@ -127,6 +127,8 @@ body.hw-world { margin: 0; background: var(--hw-night); color: var(--hw-cream); 
 .hw-letter-paper { position: relative; z-index: 2; width: 100%; margin-top: 28px; padding: clamp(25px, 5vw, 50px); border: 1px solid #e5c8bc; border-radius: 8px; background: #fff3e4; color: #654453; box-shadow: 0 18px 35px #30233f2b; text-align: left; animation: hw-unfold 600ms ease both; }
 .hw-letter-paper::before { content: ''; position: absolute; inset: 10px; border: 1px solid #e7cfc5; pointer-events: none; }
 .hw-letter-text { white-space: pre-line; overflow-wrap: anywhere; font: 400 clamp(1.2rem, 2.3vw, 1.55rem)/1.7 'Cormorant Garamond', Georgia, serif; }
+.hw-letter-text p { margin: 0; white-space: normal; }
+.hw-letter-text p + p { margin-top: 1em; }
 .hw-letter-scene > .hw-art { position: absolute; }
 .hw-letter-ghost { width: 13%; left: 0; top: 40px; }
 .hw-letter-wave { width: 11%; right: 0; top: 70px; animation-delay: -1.5s !important; }
