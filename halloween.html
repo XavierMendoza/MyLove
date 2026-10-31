@@ -1,18 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>A Little Halloween Magic | Mi amor</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#30233f">
+  <meta name="description" content="A little Halloween storybook, made with love. Follow the moonlight to our pumpkin garden and a letter for my boo.">
+  <title>Our Spooky Little World | Mi amor</title>
+  <link rel="icon" type="image/svg+xml" href="assets/halloween/story-smiling-pumpkin.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/halloween.css">
+  <script src="js/halloween.js" defer></script>
 </head>
-<body>
-  <main class="halloween-placeholder">
-    <h1>A little Halloween magic is coming, my love 🎃💕</h1>
-    <a class="halloween-back" href="index.html">Back to Mi amor ♡</a>
+<body class="hw-world">
+  <a class="hw-skip" href="#hw-main">Skip to our story</a>
+  <header class="hw-topbar">
+    <a class="hw-brand" href="index.html">Mi amor</a>
+    <a class="hw-letter-shortcut" href="#love-letter">A Letter for My Boo <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="hw-main">
+    <section class="hw-welcome" aria-labelledby="welcome-title">
+      <img class="hw-art hw-corner-web" src="assets/halloween/web.svg" alt="" aria-hidden="true" draggable="false" >
+      <div class="hw-welcome-copy">
+        <h1 id="welcome-title">happy halloween my love,<br><em>your the only treat i need baby.</em></h1>
+      </div>
+      <div class="hw-welcome-stage" role="img" aria-label="A friendly pumpkin scarecrow welcomes you to a moonlit village with a little witch, blushing ghosts, bats, glowing lanterns and smiling pumpkins.">
+        <img class="hw-art hw-sky-details" src="assets/halloween/night-sky.svg" alt="" aria-hidden="true" draggable="false">
+        <img class="hw-art hw-moon" src="assets/halloween/story-moon.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-cloud hw-cloud--one" src="assets/halloween/story-cloud.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-cloud hw-cloud--two" src="assets/halloween/story-cloud.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-village" src="assets/halloween/village.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-scarecrow hw-sway" src="assets/halloween/story-scarecrow.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-welcome-witch hw-float" src="assets/halloween/story-witch.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-welcome-ghost hw-float" src="assets/halloween/story-ghost-heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-welcome-wave hw-float" src="assets/halloween/story-ghost-waving.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-welcome-pumpkin hw-wiggle" src="assets/halloween/story-smiling-pumpkin.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-welcome-giggle hw-wiggle" src="assets/halloween/story-giggling-pumpkin.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-welcome-hat hw-sway" src="assets/halloween/story-witch-pumpkin.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-welcome-bat" src="assets/halloween/story-bat.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-welcome-bat-two" src="assets/halloween/story-bat.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-welcome-lantern hw-sway" src="assets/halloween/story-lantern.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-welcome-lantern-two hw-sway" src="assets/halloween/story-lantern.svg" alt="" aria-hidden="true" draggable="false" >
+          <div class="hw-charms" aria-hidden="true">
+          <img class="hw-art hw-charm hw-charm--0" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--1" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--2" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--3" src="assets/halloween/leaf.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--4" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--5" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--6" src="assets/halloween/leaf.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--7" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" ></div>
+      </div>
+      <a class="hw-explore" href="#our-pumpkin" aria-label="Explore the pumpkin garden"><span aria-hidden="true">↓</span></a>
+    </section>
+    <section class="hw-pumpkin-chapter hw-chapter" id="our-pumpkin" aria-labelledby="pumpkin-title">
+      <div class="hw-chapter-inner hw-pumpkin-layout">
+        <div class="hw-copy">
+          <h2 id="pumpkin-title">i still love that uneven plus sign,</h2>
+        </div>
+        <figure class="hw-special-scene">
+          <img class="hw-art hw-scene-ground" src="assets/halloween/pumpkin-patch.svg" alt="" aria-hidden="true" draggable="false">
+          <img class="hw-art hw-patch-hat hw-sway" src="assets/halloween/story-witch-pumpkin.svg" alt="" aria-hidden="true" draggable="false">
+          <img class="hw-art hw-patch-lantern hw-sway" src="assets/halloween/story-lantern.svg" alt="" aria-hidden="true" draggable="false">
+          <img class="hw-art hw-patch-wave hw-float" src="assets/halloween/story-ghost-waving.svg" alt="" aria-hidden="true" draggable="false">
+          <img class="hw-art hw-special-pumpkin hw-sway" src="assets/halloween/special-pumpkin.svg" alt="Our orange pumpkin with the candle’s looping handwritten L, uneven plus with a longer upper stroke, curved X and irregular black hearts." draggable="false" >
+          <img class="hw-art hw-special-ghost hw-float" src="assets/halloween/story-ghost.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-special-sleepy hw-wiggle" src="assets/halloween/story-sleepy-pumpkin.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-special-small hw-wiggle" src="assets/halloween/story-smiling-pumpkin.svg" alt="" aria-hidden="true" draggable="false" >
+          <div class="hw-charms" aria-hidden="true">
+          <img class="hw-art hw-charm hw-charm--0" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--1" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--2" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--3" src="assets/halloween/leaf.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--4" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--5" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--6" src="assets/halloween/leaf.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--7" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" ></div>
+        </figure>
+      </div>
+    </section>
+    <section class="hw-boo-chapter hw-chapter" aria-labelledby="boo-message">
+      <div class="hw-chapter-inner">
+        <div class="hw-tombstone-scene">
+          <img class="hw-art hw-scene-ground" src="assets/halloween/graveyard-scene.svg" alt="" aria-hidden="true" draggable="false">
+          <img class="hw-art hw-grave-lantern hw-sway" src="assets/halloween/story-lantern.svg" alt="" aria-hidden="true" draggable="false">
+          <img class="hw-art hw-grave-lantern-two hw-sway" src="assets/halloween/story-lantern.svg" alt="" aria-hidden="true" draggable="false">
+          <img class="hw-art hw-skeleton hw-skeleton--one hw-dance" src="assets/halloween/story-skeleton-dance.svg" alt="A smiling skeleton dancing with one arm raised." draggable="false" >
+          <img class="hw-art hw-skeleton hw-skeleton--two hw-dance" src="assets/halloween/story-skeleton-wave.svg" alt="A second smiling skeleton waving in a different dance pose." draggable="false" >
+          <img class="hw-art hw-tomb-ghost hw-float" src="assets/halloween/story-ghost-waving.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-tomb-heart-ghost hw-float" src="assets/halloween/story-ghost-heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-tomb-pumpkin hw-wiggle" src="assets/halloween/story-witch-pumpkin.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-tomb-giggle hw-wiggle" src="assets/halloween/story-giggling-pumpkin.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-tomb-web" src="assets/halloween/web.svg" alt="" aria-hidden="true" draggable="false" ><div class="hw-hanging-spider" aria-hidden="true"><span></span>
+          <img class="hw-art " src="assets/halloween/story-spider.svg" alt="" aria-hidden="true" draggable="false" ></div>
+          <img class="hw-art hw-peeking-spider" src="assets/halloween/story-spider.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-tomb-bat" src="assets/halloween/story-bat.svg" alt="" aria-hidden="true" draggable="false" >
+          <div class="hw-charms" aria-hidden="true">
+          <img class="hw-art hw-charm hw-charm--0" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--1" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--2" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--3" src="assets/halloween/leaf.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--4" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--5" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--6" src="assets/halloween/leaf.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--7" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" ></div>
+          <div class="hw-tombstone">
+            <img class="hw-art hw-stone-engraving" src="assets/halloween/stone-engraving.svg" alt="" aria-hidden="true" draggable="false">
+            <div class="hw-stone-ornament" aria-hidden="true">
+          <img class="hw-art " src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" ></div>
+            <h2 id="boo-message">Will you be my boo,<br>I'll be your Halloweenie</h2>
+            <div class="hw-stone-flourish" aria-hidden="true">
+          <img class="hw-art " src="assets/halloween/flower.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art " src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art " src="assets/halloween/flower.svg" alt="" aria-hidden="true" draggable="false" ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hw-cat-chapter hw-chapter" aria-labelledby="cat-title">
+      <div class="hw-chapter-inner hw-cat-layout">
+        <figure class="hw-cat-scene">
+          <img class="hw-art hw-scene-ground" src="assets/halloween/cat-garden.svg" alt="" aria-hidden="true" draggable="false">
+          <img class="hw-art hw-cat-lantern hw-sway" src="assets/halloween/story-lantern.svg" alt="" aria-hidden="true" draggable="false">
+          <img class="hw-art hw-cat-heart-ghost hw-float" src="assets/halloween/story-ghost-heart.svg" alt="" aria-hidden="true" draggable="false">
+          <img class="hw-art hw-her-cat" src="assets/halloween/her-cat.svg" alt="Her gray-and-white cat: an uneven white blaze between gray eye markings, green eyes, a pink nose, white chest and paws, gray back and tail, and a tiny purple witch hat." draggable="false" >
+          <img class="hw-art hw-cat-friend" src="assets/halloween/story-black-cat.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-cat-pumpkin hw-wiggle" src="assets/halloween/story-smiling-pumpkin.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-cat-sleepy hw-sway" src="assets/halloween/story-sleepy-pumpkin.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-cat-bat" src="assets/halloween/story-bat.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-cat-ghost hw-float" src="assets/halloween/story-ghost.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-cat-flower" src="assets/halloween/flower.svg" alt="" aria-hidden="true" draggable="false" >
+          <div class="hw-charms" aria-hidden="true">
+          <img class="hw-art hw-charm hw-charm--0" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--1" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--2" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--3" src="assets/halloween/leaf.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--4" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--5" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--6" src="assets/halloween/leaf.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--7" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" ></div>
+        </figure>
+        <div class="hw-copy">
+          <h2 id="cat-title">hey cat !!!</h2>
+        </div>
+      </div>
+    </section>
+    <section class="hw-letter-chapter hw-chapter" id="love-letter" aria-labelledby="letter-title">
+      <div class="hw-chapter-inner">
+        <h2 id="letter-title">A Little Love Letter<br><em>for My Boo</em></h2>
+        <p class="hw-letter-invitation">One last little surprise, sealed with love.</p>
+        <div class="hw-letter-scene" id="letter-scene">
+          <img class="hw-art hw-letter-ghost hw-float" src="assets/halloween/ghost-heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-letter-wave hw-float" src="assets/halloween/ghost-waving.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-letter-pumpkin hw-wiggle" src="assets/halloween/smiling-pumpkin.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-letter-flower" src="assets/halloween/flower.svg" alt="" aria-hidden="true" draggable="false" >
+          <div class="hw-charms" aria-hidden="true">
+          <img class="hw-art hw-charm hw-charm--0" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--1" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--2" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--3" src="assets/halloween/leaf.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--4" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--5" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--6" src="assets/halloween/leaf.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--7" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" ></div>
+          <div class="hw-envelope" aria-hidden="true">
+            <div class="hw-envelope-flap"></div>
+            <div class="hw-envelope-front"></div>
+            <span class="hw-envelope-seal">
+          <img class="hw-art " src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" ></span>
+            <span class="hw-envelope-inscription">for my boo</span>
+            <div class="hw-letter-hearts">
+          <img class="hw-art hw-release-heart hw-release-heart--0" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-release-heart hw-release-heart--1" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-release-heart hw-release-heart--2" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-release-heart hw-release-heart--3" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-release-heart hw-release-heart--4" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" ></div>
+          </div>
+          <button class="hw-button hw-letter-toggle" type="button" id="letter-toggle" aria-expanded="false" aria-controls="love-letter-content">Open My Letter</button>
+          <article class="hw-letter-paper" id="love-letter-content" aria-label="Your Halloween love letter" hidden>
+            <!-- REPLACE THIS PLACEHOLDER WITH THE FINAL LOVE LETTER -->
+            <div class="hw-letter-text">To my beautiful love,
+
+Your special Halloween letter will go here.
+
+Forever and Always,
+Your Love</div>
+          </article>
+          <noscript><p class="hw-noscript">Please enable JavaScript to open your letter.</p></noscript>
+        </div>
+      </div>
+      <img class="hw-art hw-between-garden" src="assets/halloween/letter-garden.svg" alt="" aria-hidden="true" draggable="false">
+    </section>
+    <footer class="hw-ending" aria-labelledby="ending-title">
+      <img class="hw-art hw-ending-landscape" src="assets/halloween/closing-garden.svg" alt="" aria-hidden="true" draggable="false">
+      <div class="hw-ending-friends" aria-hidden="true">
+          <img class="hw-art hw-float" src="assets/halloween/story-ghost-waving.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-wiggle" src="assets/halloween/story-smiling-pumpkin.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-float" src="assets/halloween/story-ghost-heart.svg" alt="" aria-hidden="true" draggable="false" ></div>
+          <div class="hw-charms" aria-hidden="true">
+          <img class="hw-art hw-charm hw-charm--0" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--1" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--2" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--3" src="assets/halloween/leaf.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--4" src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--5" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--6" src="assets/halloween/leaf.svg" alt="" aria-hidden="true" draggable="false" >
+          <img class="hw-art hw-charm hw-charm--7" src="assets/halloween/star.svg" alt="" aria-hidden="true" draggable="false" ></div>
+      <h2 id="ending-title">Forever and Always,<br><em>My Love.</em></h2>
+      <a class="hw-button hw-home" href="index.html">
+          <img class="hw-art " src="assets/halloween/heart.svg" alt="" aria-hidden="true" draggable="false" > Back to Mi Amor <span aria-hidden="true">↗</span></a>
+    </footer>
   </main>
 </body>
 </html>

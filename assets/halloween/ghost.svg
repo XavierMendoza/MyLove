@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 60">
+<style>@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+
+        <path d="M8 49V25C8 3 44 3 44 25v24l-6-4-6 5-6-5-6 5-6-5Z" fill="#fff8fd" stroke="#c4a4dc" stroke-width="2" stroke-linejoin="round"/>
+        <ellipse cx="20" cy="27" rx="2" ry="3" fill="#70516f"/>
+        <ellipse cx="33" cy="27" rx="2" ry="3" fill="#70516f"/>
+        <path d="M23 33q3 4 6 0" fill="none" stroke="#70516f" stroke-width="1.5" stroke-linecap="round"/>
+        <ellipse cx="15" cy="33" rx="4" ry="2" fill="#f5b5cd"/>
+        <ellipse cx="38" cy="33" rx="4" ry="2" fill="#f5b5cd"/>
+
+</svg>
