@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 40">
+<style>.halloween-bat-wing{transform-origin:32px 24px;animation:flap 2.7s ease-in-out infinite}.halloween-bat-wing--right{animation-name:flapR}@keyframes flap{50%{transform:rotate(8deg)}}@keyframes flapR{50%{transform:rotate(-8deg)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+
+        <path class="halloween-bat-wing halloween-bat-wing--left" d="M29 19Q13 3 3 10q-3 8 3 18 5-7 10 0 5-4 13 1Z" fill="#b194c5" stroke="#70516f" stroke-width="1.8" stroke-linejoin="round"/>
+        <path class="halloween-bat-wing halloween-bat-wing--right" d="M35 19Q51 3 61 10q3 8-3 18-5-7-10 0-5-4-13 1Z" fill="#b194c5" stroke="#70516f" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="m24 18 1-11 7 7 7-7 1 11q7 17-8 18-15-1-8-18Z" fill="#796184" stroke="#70516f" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M28 22v1m8-1v1m-6 5q2 2 4 0" fill="none" stroke="#fff8fd" stroke-width="1.7" stroke-linecap="round"/>
+        <ellipse cx="26" cy="26" rx="2" ry="1.4" fill="#efadc5"/><ellipse cx="38" cy="26" rx="2" ry="1.4" fill="#efadc5"/>
+
+</svg>
